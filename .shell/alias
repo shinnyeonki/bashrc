@@ -1,6 +1,10 @@
+#management ubuntu
 alias ubuntu='sudo apt upgrade -y && sudo apt update -y'
 alias sai='sudo apt install -y'
 alias sar='sudo apt remove -y'
+
+#bash
+gogo='source ~/.bashrc'
 
 #git alias
 alias gs='git status'
