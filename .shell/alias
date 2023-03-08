@@ -4,7 +4,7 @@ alias sai='sudo apt install -y'
 alias sar='sudo apt remove -y'
 
 #bash
-gogo='source ~/.bashrc'
+alias gogo='source ~/.bashrc'
 
 #git alias
 alias gs='git status'
