@@ -1,3 +1,9 @@
 alias ubuntu='sudo apt upgrade -y && sudo apt update -y'
 alias sai='sudo apt install -y'
 alias sar='sudo apt remove -y'
+
+#git alias
+alias gs='git status'
+alias gl='git log --branches --decorate --graph'
+alias ga='git add'
+alias gc='git commit -m'
