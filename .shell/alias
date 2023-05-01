@@ -5,9 +5,23 @@ alias sar='sudo apt remove -y'
 
 #bash
 alias gogo='source ~/.bashrc'
+alias open='explorer.exe'
+alias pbcopy='xclip -selection clipboard'
+
 
 #git alias
 alias gs='git status'
 alias gl='git log --branches --decorate --graph'
 alias ga='git add'
 alias gc='git commit -m'
+
+#my server
+my() {
+    if [ "$1" = "server" ]; then
+        shift        # eat the 'update'
+        command ssh shinnk@shinnk.iptime.org -p 10293 "$@"
+    else 
+        shift
+        command my "$@"
+    fi
+}
