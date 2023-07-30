@@ -16,12 +16,14 @@ alias ga='git add'
 alias gc='git commit -m'
 
 #my server
-my() {
-    if [ "$1" = "server" ]; then
-        shift        # eat the 'update'
-        command ssh shinnk@shinnk.iptime.org -p 10293 "$@"
-    else 
-        shift
-        command my "$@"
-    fi
-}
+alias myserver='ssh shinnk@shinnk.iptime.org -p 10295'
+alias myserver2='ssh shinnk@shinnk.iptime.org -p 10293'
+#my() {
+#    if [ "$1" = "server" ]; then
+#        shift        # eat the 'update'
+#        command ssh shinnk@shinnk.iptime.org -p 10293 "$@"
+#    else 
+#        shift
+#        command my "$@"
+#    fi
+#}
