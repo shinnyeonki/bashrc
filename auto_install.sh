@@ -3,7 +3,7 @@
 echo "WSL 환경인가요? (y/n)"
 read answer
 #wsl 환경이 아니라면
-if [ "$answer" != "${answer#[Yy]}" ] ; then
+if [ "$answer" = "${answer#[Nn]}" ] ; then
     sed -i '8d' .shell/alias
 fi
 cp ~/.bashrc .shell/defaults
