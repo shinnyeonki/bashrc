@@ -1,3 +1,3 @@
-source ~/.shell/defaults
-source ~/.shell/alias
-source ~/.shell/temp
+source ~/.bashrc.d/defaults
+source ~/.bashrc.d/alias
+source ~/.bashrc.d/temp
