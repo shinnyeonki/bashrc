@@ -1,5 +1,5 @@
 #/bin/sh
-cp ~/.bashrc .shell/defaults
+cp ~/.bashrc .bashrc.d/defaults
 cp .bashrc ~/.bashrc
-cp -r .shell ~/.shell
+cp -r .shell ~/.bashrc.d
 source ~/.bashrc
